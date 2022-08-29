@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537171739 source:c:\users\thor\documents\c++ code\book\queue example\main.cpp
+	<iostream>
+	<string>
+	<queue>
+

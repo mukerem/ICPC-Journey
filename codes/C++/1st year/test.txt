@@ -1,0 +1,4 @@
+Full Name             Rate          Hours 
+Ikram Atlas           40             22
+EKram Meweda          20             15
+

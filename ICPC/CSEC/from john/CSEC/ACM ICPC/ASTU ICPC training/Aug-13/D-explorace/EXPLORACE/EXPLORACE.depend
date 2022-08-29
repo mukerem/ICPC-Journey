@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534074926 source:c:\users\mustefa\documents\icpc\explorace\main.cpp
+	<iostream>
+	<map>
+	<vector>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536731579 source:c:\users\thor\documents\c++ code\swap two variables\main.cpp
+	<iostream>
+	<vector>
+	<string>
+

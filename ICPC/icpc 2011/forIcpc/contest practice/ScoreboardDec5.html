@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- DOMjudge version 5.1.3 -->
+<meta charset="utf-8">
+<title>Scoreboard</title>
+<link rel="icon" href="http://10.240.68.72/domjudge/images/favicon.png" type="image/png">
+<link rel="stylesheet" href="ScoreboardDec5_files/style.css" type="text/css">
+<script type="text/javascript" src="ScoreboardDec5_files/domjudge.js"></script>
+</head>
+<body>
+<nav><div id="menutop">
+<a target="_top" href="http://10.240.68.72/domjudge/team/index.php" accesskey="o">overview</a>
+<a target="_top" href="http://10.240.68.72/domjudge/team/problems.php" accesskey="t">problems</a>
+<a target="_top" href="http://10.240.68.72/domjudge/team/scoreboard.php" accesskey="b">scoreboard</a>
+</div>
+
+<div id="menutopright">
+<div id="clock"><span id="timeleft"></span><div id="username">logged in as user01 <a href="http://10.240.68.72/domjudge/auth/logout.php">×</a></div></div><script type="text/javascript">
+	var initial = 1544039104;
+	var activatetime = 1544029500.000000000;
+	var starttime = 1544031300.000000000;
+	var endtime = 1544038620.000000000;
+	var offset = 0;
+	var date = new Date(initial*1000);
+	var timeleftelt = document.getElementById("timeleft");
+
+	setInterval(function(){updateClock();},1000);
+	updateClock();
+</script>
+</div></nav>
+
+<h1>Scoreboard Division One Mock Contest 2</h1>
+
+<h4>final standings</h4>
+
+
+<table class="scorefilter">
+<tbody><tr>
+<td><a class="collapse" href="javascript:collapse('filter')"><img src="ScoreboardDec5_files/filter.png" alt="filter…" title="filter…" class="picto"></a></td>
+<td></td>
+<td><div id="detailfilter" style="display: none;">
+<form style="display:inline;" action="scoreboard.php" method="get">
+<select name="categoryid[]" multiple="multiple" size="8" id="categoryid__">
+<option value="2">Self-Registered</option>
+<option value="3">Participants</option>
+<option value="4">Observers</option>
+</select>
+<input type="submit" name="filter" id="filter" value="filter">
+<input type="submit" name="clear" id="clear" value="clear">
+</form>
+
+</div></td></tr>
+</tbody></table>
+<script type="text/javascript">
+<!--
+collapse("filter");
+// -->
+</script>
+		<table class="scoreboard">
+<colgroup><col id="scorerank"><col id="scoreaffil"><col id="scoreteamname"></colgroup><colgroup><col id="scoresolv"><col id="scoretotal"></colgroup>
+<colgroup><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"></colgroup>
+<thead>
+<tr class="scoreheader"><th title="rank" scope="col">rank</th><th title="team name" scope="col" colspan="2">team</th><th title="# solved / penalty time" colspan="2" scope="col">score</th>
+<th title="problem 'Dinner for Five'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=12">Dinner <div class="circle" style="background: #00FF00;"></div></a></th><th title="problem 'Encoded Message'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=13">Encod <div class="circle" style="background: #f44336;"></div></a></th><th title="problem 'Green Plate'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=14">Plate <div class="circle" style="background: #cccccc;"></div></a></th><th title="problem 'Prime Matrix'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=15">Prime <div class="circle" style="background: #4afff3;"></div></a></th></tr>
+</thead>
+
+<tbody>
+<tr class="sortorderswitch scorethisisme" id="team:2"><td class="scorepl">1</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=2">ANDELUS<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">4</td><td class="scorett">272</td><td class="score_correct">1/67</td><td class="score_correct score_first">1/26</td><td class="score_correct score_first">1/73</td><td class="score_correct score_first">1/106</td></tr>
+<tr id="team:3"><td class="scorepl">2</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=3">Badgateway 401<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">2</td><td class="scorett">152</td><td class="score_correct score_first">1/17</td><td class="score_correct">3/95</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:4"><td class="scorepl">3</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=4">Coded<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">2</td><td class="scorett">156</td><td class="score_correct">1/34</td><td class="score_correct">2/102</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:5"><td class="scorepl">4</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=5">CodeX<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">1</td><td class="scorett">45</td><td class="score_correct">1/45</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:11"><td class="scorepl">5</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=11">Time Limit<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">1</td><td class="scorett">52</td><td class="score_correct">1/52</td><td class="score_incorrect">3</td><td class="score_neutral">0</td><td class="score_incorrect">2</td></tr>
+<tr id="team:58"><td class="scorepl">6</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=58">Y2K<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">1</td><td class="scorett">72</td><td class="score_correct">1/72</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:9"><td class="scorepl">7</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=9">Pioneer<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">1</td><td class="scorett">120</td><td class="score_correct">1/120</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:6"><td class="scorepl">8</td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=6">Dr.Abiy<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">0</td><td class="scorett">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:7"><td class="scorepl"></td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=7">HexaBinary Decimal<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">0</td><td class="scorett">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:8"><td class="scorepl"></td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=8">level ZERO<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">0</td><td class="scorett">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr id="team:10"><td class="scorepl"></td><td class="scoreaf"> <img src="ScoreboardDec5_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=10">Team-107<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">0</td><td class="scorett">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+<tr class="sortorderswitch" id="team:59"><td class="scorepl">1</td><td class="scoreaf"></td><td class="scoretn" style="background: #ffcc33;"><a href="http://10.240.68.72/domjudge/team/team.php?id=59">score<br><span class="univ"></span></a></td><td class="scorenc">0</td><td class="scorett">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td><td class="score_neutral">0</td></tr>
+</tbody>
+
+<tbody><tr id="scoresummary" title="#submitted / #correct"><td title="total teams">12</td><td class="scoreaffil" title="#affiliations / #countries">1 / 1</td><td title=" ">Summary</td><td title="total solved" class="scorenc">12</td><td title=" "></td><td>7/7</td><td>9/3</td><td>1/1</td><td>3/1</td></tr>
+</tbody>
+</table>
+
+<p><br><br></p>
+<table id="categ_legend" class="scoreboard scorelegend">
+<thead><tr><th scope="col">Categories</th></tr></thead>
+<tbody>
+<tr><td>Participants</td></tr>
+<tr style="background: #ffcc33;"><td>Observers</td></tr>
+<tr style="background: #33cc44;"><td>Self-Registered</td></tr>
+</tbody>
+</table>
+&nbsp;
+<table id="cell_legend" class="scoreboard scorelegend">
+<thead><tr><th scope="col">Cell colours</th></tr></thead>
+<tbody>
+<tr class="score_first"><td>Solved first</td></tr>
+<tr class="score_correct"><td>Solved</td></tr>
+<tr class="score_incorrect"><td>Tried, incorrect</td></tr>
+<tr class="score_pending"><td>Tried, pending</td></tr>
+<tr class="score_neutral"><td>Untried</td></tr>
+</tbody>
+</table>
+
+<p id="lastmod">Last Update: Wed 05 Dec 2018 20:45:04 CET<br>
+using <a href="https://www.domjudge.org/">DOMjudge</a></p>
+
+
+
+
+</body></html>

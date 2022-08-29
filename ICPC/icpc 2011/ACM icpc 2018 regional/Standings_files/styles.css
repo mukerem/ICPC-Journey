@@ -1,0 +1,116 @@
+/*  Copyright (C) 2010-2011, 2013  Bruce Merry and Carl Hultquist
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; version 2.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+/* General styling */
+
+.pointer-hover { cursor: pointer; }
+.tab-highlight { color: red; font-weight: bolder; }
+/* hide disabled tabs */
+.ui-tabs > .ui-tabs-nav > .ui-state-disabled { display: none; }
+
+.jsonly { display: none; }
+.error { color: red; }
+input.invalid { background-color: #ff8888; }
+.updated { font-size: small; }
+
+table.data-table { border: 2px solid; border-collapse: collapse; }
+table.data-table th { background-color: #add8e6; }
+table.data-table td, table.data-table th { border: 1px solid; }
+table.data-table tr.row-hover { background-color: #64b4e6; }
+table.data-table tr.even { background-color: #eeeeee; }
+table.data-table tr.search { background-color: #ffff88; }
+table.data-table tr.even.search { background-color: #eeee88; }
+
+/* Top-level elements */
+
+body     { margin: 0pt 0pt; }
+div#body { padding: 5pt 5pt; }
+
+#connection-status
+{
+    width: 100%;
+    padding: 0pt 0pt;
+    background-color: black;
+    text-align: center;
+}
+
+#connection-status img, #connection-status button, #connection-status span
+{
+    margin: 3pt 3pt;
+}
+
+#connection-status img
+{
+    float: left;
+}
+
+#waiting { background-color: #ffffa3; }
+
+#logout { float: right; }
+#logout-dummy { position: relative; left: -10000px; }
+
+#contest-user-bar { padding: 5pt 10pt; }
+
+#user-status { float: right; }
+#username    { float: right; color: #00c800; font-weight: bold; margin-left: 5pt; }
+
+/* Submissions */
+
+#submissions-filter-accordion { margin-bottom: 1em; }
+#submissions-filter-table { width: 100%; }
+#submissions-filter-table th { text-align: left; }
+#submissions-filter-table tr { text-align: left; }
+
+.submission-correct { color: green; }
+.submission-wrong   { color: red; }
+.submission-compilation-failed { color: orange; }
+
+#submission-result-dialog-contents {
+    font-family: monospace;
+    font-size: small;
+    overflow: auto;
+}
+
+.nowrap {
+    white-space: pre;
+}
+
+/* Clarification requests */
+
+.clarification-request-answered   { color: green; }
+.clarification-request-unanswered { color: red; }
+
+table.clarification-request-buttons-table { width: 100%; empty-cells: show; }
+table.clarification-request-buttons-table col { width: 33%; }
+table.clarification-request-buttons-table td { text-align: center; }
+
+/* Standings */
+
+#standings-frozen { display: none; }
+#standings-frozen.frozen { font-size: larger; font-weight: bold; color: red; display: block; }
+table.standings-table col.name { width: 20em; }
+table.standings-table colgroup.problem col { width: 8ex; }
+table.standings-table td.column-place { text-align: center; }
+table.standings-table td.column-username { }
+table.standings-table td.column-friendlyname { }
+table.standings-table td.column-total-time { }
+table.standings-table td.column-total-solved { text-align: center; }
+table.standings-table td.column-solved { text-align: center; }
+
+#tab-standings .correct { font-weight: bold; color: green; }
+
+table.standings-legend { font-size: small; }
+table.standings-legend td { padding-right: 5em; }

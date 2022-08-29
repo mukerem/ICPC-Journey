@@ -1,0 +1,5 @@
+#print ('Good Bye ASTU!')
+x = input()
+y=input()
+z=input()
+print(x, y, z, sep='')

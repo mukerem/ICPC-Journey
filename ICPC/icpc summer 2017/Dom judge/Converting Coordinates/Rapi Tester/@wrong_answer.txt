@@ -1,0 +1,4 @@
+file: ../b.in
+Sample input:
+Sample output: 126.9645620 38.0362245 327.528807
+User output: 126.1784451 38.3160146 327.528807

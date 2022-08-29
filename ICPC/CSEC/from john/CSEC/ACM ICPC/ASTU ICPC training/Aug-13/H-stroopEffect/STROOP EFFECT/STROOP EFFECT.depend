@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1534095373 source:c:\users\mustefa\documents\icpc\stroop effect\main.cpp
+	<iostream>
+	<vector>
+

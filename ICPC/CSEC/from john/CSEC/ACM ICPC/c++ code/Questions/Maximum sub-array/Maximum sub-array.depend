@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1536914699 source:c:\users\thor\documents\c++ code\maximum sub-array\main.cpp
+	<iostream>
+	<numeric>
+

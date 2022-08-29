@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537897723 source:c:\users\thor\documents\c++ code\reg\word count\main.cpp
+	<iostream>
+	<vector>
+	<string>
+

@@ -1,0 +1,5 @@
+a.in a.out
+b.in b.out
+c.in c.out
+d.in d.out
+e.in e.out

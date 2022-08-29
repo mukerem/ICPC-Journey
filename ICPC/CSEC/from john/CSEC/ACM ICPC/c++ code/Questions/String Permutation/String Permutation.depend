@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537554159 source:c:\users\thor\documents\c++ code\string permutation\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- DOMjudge version 5.1.3 -->
+<meta charset="utf-8">
+<title>ANDELUS</title>
+<link rel="icon" href="http://10.240.68.72/domjudge/images/favicon.png" type="image/png">
+<link rel="stylesheet" href="ANDELUS_files/style.css" type="text/css">
+<script type="text/javascript" src="ANDELUS_files/domjudge.js"></script>
+</head>
+<body>
+<nav><div id="menutop">
+<a target="_top" href="http://10.240.68.72/domjudge/team/index.php" accesskey="o">overview</a>
+<a target="_top" href="http://10.240.68.72/domjudge/team/problems.php" accesskey="t">problems</a>
+<a target="_top" href="http://10.240.68.72/domjudge/team/scoreboard.php" accesskey="b">scoreboard</a>
+</div>
+
+<div id="menutopright">
+<div id="clock"><span id="timeleft"></span><div id="username">logged in as user01 <a href="http://10.240.68.72/domjudge/auth/logout.php">×</a></div></div><script type="text/javascript">
+	var initial = 1544039187;
+	var activatetime = 1544029500.000000000;
+	var starttime = 1544031300.000000000;
+	var endtime = 1544038620.000000000;
+	var offset = 0;
+	var date = new Date(initial*1000);
+	var timeleftelt = document.getElementById("timeleft");
+
+	setInterval(function(){updateClock();},1000);
+	updateClock();
+</script>
+</div></nav>
+
+<script type="text/javascript">
+<!--
+function getMainExtension(ext)
+{
+	switch(ext) {
+		case 'adb': return 'adb';
+		case 'ads': return 'adb';
+		case 'awk': return 'awk';
+		case 'bash': return 'bash';
+		case 'c': return 'c';
+		case 'cpp': return 'cpp';
+		case 'cc': return 'cpp';
+		case 'c++': return 'cpp';
+		case 'csharp': return 'csharp';
+		case 'cs': return 'csharp';
+		case 'f95': return 'f95';
+		case 'f90': return 'f95';
+		case 'hs': return 'hs';
+		case 'lhs': return 'hs';
+		case 'java': return 'java';
+		case 'lua': return 'lua';
+		case 'pas': return 'pas';
+		case 'p': return 'pas';
+		case 'pl': return 'pl';
+		case 'py2': return 'py2';
+		case 'py': return 'py2';
+		case 'py3': return 'py3';
+		case 'sh': return 'sh';
+		default: return '';
+	}
+}
+
+function getProbDescription(probid)
+{
+	switch(probid) {
+		case 'Dinner': return 'Dinner for Five';
+		case 'Encod': return 'Encoded Message';
+		case 'Plate': return 'Green Plate';
+		case 'Prime': return 'Prime Matrix';
+		default: return '';
+	}
+}
+
+initReload(30);
+// -->
+</script>
+<div id="teamscoresummary">
+<table class="scoreboard center">
+<colgroup><col id="scorerank"><col id="scoreaffil"><col id="scoreteamname"></colgroup><colgroup><col id="scoresolv"><col id="scoretotal"></colgroup>
+<colgroup><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"><col class="scoreprob"></colgroup>
+<thead>
+<tr class="scoreheader"><th title="rank" scope="col">rank</th><th title="team name" scope="col" colspan="2">team</th><th title="# solved / penalty time" colspan="2" scope="col">score</th>
+<th title="problem 'Dinner for Five'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=12">Dinner <div class="circle" style="background: #00FF00;"></div></a></th><th title="problem 'Encoded Message'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=13">Encod <div class="circle" style="background: #f44336;"></div></a></th><th title="problem 'Green Plate'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=14">Plate <div class="circle" style="background: #cccccc;"></div></a></th><th title="problem 'Prime Matrix'" scope="col"><a href="http://10.240.68.72/domjudge/team/problem.php?id=15">Prime <div class="circle" style="background: #4afff3;"></div></a></th></tr>
+</thead>
+
+<tbody>
+<tr class="sortorderswitch" id="team:2"><td class="scorepl">1</td><td class="scoreaf"> <img src="ANDELUS_files/ETH.png" alt="ETH" title="ETH"></td><td class="scoretn"><a href="http://10.240.68.72/domjudge/team/team.php?id=2">ANDELUS<br><span class="univ">Adama Science and Technology University</span></a></td><td class="scorenc">4</td><td class="scorett">272</td><td class="score_correct">1/67</td><td class="score_correct">1/26</td><td class="score_correct">1/73</td><td class="score_correct">1/106</td></tr>
+</tbody>
+
+</table>
+
+</div>
+
+<div id="submitlist">
+<h3 class="teamoverview">Submissions</h3>
+
+<form style="display:inline;" action="upload.php" method="post" enctype="multipart/form-data" onreset="resetUploadForm(30, 100);">
+<p id="submitform">
+
+<input type="file" name="code[]" id="maincode" required="" multiple="">
+<select name="probid" id="probid">
+<option value="12">Dinner</option>
+<option value="13">Encod</option>
+<option value="14">Plate</option>
+<option value="15">Prime</option>
+<option value="" selected="selected">problem</option>
+</select>
+<select name="langid" id="langid">
+<option value="adb">Ada</option>
+<option value="awk">AWK</option>
+<option value="bash">Bash shell</option>
+<option value="c">C</option>
+<option value="cpp">C++</option>
+<option value="csharp">C#</option>
+<option value="f95">Fortran</option>
+<option value="hs">Haskell</option>
+<option value="java">Java</option>
+<option value="lua">Lua</option>
+<option value="pas">Pascal</option>
+<option value="pl">Perl</option>
+<option value="py2">Python 2</option>
+<option value="py3">Python 3</option>
+<option value="sh">POSIX shell</option>
+<option value="" selected="selected">language</option>
+</select>
+<input type="submit" name="submit" id="submit" value="submit" onclick="return checkUploadForm();">
+<input type="reset" value="cancel">
+<br><span id="auxfiles"></span>
+<input type="button" name="addfile" id="addfile" value="Add another file" onclick="addFileUpload();" disabled="disabled" style="display: none;">
+<script type="text/javascript">initFileUploads(100);</script>
+
+</p>
+</form>
+
+<table class="list sortable">
+<thead>
+<tr><th scope="col">time</th><th scope="col">problem</th><th scope="col">lang</th><th scope="col">result</th></tr>
+</thead>
+<tbody>
+<tr class="rowodd unseen"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=81">20:21</a></td><td class="probid" title="Prime Matrix"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=81">Prime</a></td><td class="langid" title="Python 2"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=81">py2</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=81"><span class="sol sol_correct">correct</span></a></td></tr>
+<tr class="roweven unseen"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=76">20:01</a></td><td class="probid" title="Encoded Message"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=76">Encod</a></td><td class="langid" title="C++"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=76">cpp</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=76"><span class="sol sol_correct">correct</span></a></td></tr>
+<tr class="rowodd"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=73">19:48</a></td><td class="probid" title="Green Plate"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=73">Plate</a></td><td class="langid" title="C++"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=73">cpp</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=73"><span class="sol sol_correct">correct</span></a></td></tr>
+<tr class="roweven unseen"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=70">19:42</a></td><td class="probid" title="Dinner for Five"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=70">Dinner</a></td><td class="langid" title="Python 2"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=70">py2</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=70"><span class="sol sol_correct">correct</span></a></td></tr>
+<tr class="rowodd unseen"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=66">19:24</a></td><td class="probid" title="Encoded Message"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=66">Encod</a></td><td class="langid" title="C++"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=66">cpp</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=66"><span class="sol sol_correct">correct</span></a></td></tr>
+<tr class="roweven unseen"><td><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=61">19:01</a></td><td class="probid" title="Encoded Message"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=61">Encod</a></td><td class="langid" title="Python 2"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=61">py2</a></td><td class="result"><a href="http://10.240.68.72/domjudge/team/submission_details.php?id=61"><span class="sol sol_correct">correct</span></a></td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="clarlist">
+<h3 class="teamoverview">Clarifications</h3>
+<p class="nodata">No clarifications.</p>
+
+<h3 class="teamoverview">Clarification Requests</h3>
+<p class="nodata">No clarification requests.</p>
+
+<form style="display:inline;" action="clarification.php" method="get">
+<p><input type="submit" value="request clarification">
+</p></form>
+
+</div>
+
+
+
+</body></html>

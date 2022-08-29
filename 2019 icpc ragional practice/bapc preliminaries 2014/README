@@ -1,0 +1,15 @@
+The problem texts are copyright by the BAPC 2014 jury. They are licensed under the
+Creative Commons Attribution-Share Alike license version 4.0; The complete license text
+can be found at: http://creativecommons.org/licenses/by-sa/4.0/legalcode 
+
+The samples directory contains sample input and output files that are also in the problem
+set and were provided to the contestants during the contest.
+
+The testdata directory contains all testdata as used in the judgings. The time limits
+depend on the judging machine, but are in general about twice the slowest (correct) jury
+submission. For most problems, the difference between a correct and a slow solution is
+very large.
+
+The solutions directory contains jury solutions for all problems in various languages.
+Some solutions are wrong or too slow; the filename and a special tag inside the file
+indicate this. Some solutions contain explanations or proofs of the solution.

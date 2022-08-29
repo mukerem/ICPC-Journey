@@ -1,0 +1,306 @@
+40
+4 3
+X O O
+O X X
+X O O
+X O X
+4 4
+X O O X
+O X X O
+X X O O
+X O O X
+3 3
+O X O
+X O X
+X O X
+3 3
+- - -
+- - -
+- - -
+3 4
+O O X -
+X O O X
+X O X X
+2 4
+O - O -
+X X - X
+10 10
+X O X O X O X O O O
+O X X X X X X O O O
+X X X X X X X X O O
+O O X O O O O O O X
+X O X X X X X O O O
+X O O O X O X O O O
+O X X X X X X O O O
+X O X X X O X X O O
+O O X O X O X O O X
+X O X X X X O O O O
+5 3
+X X X
+O O X
+X X O
+O X O
+O O -
+3 2
+X -
+X O
+X O
+2 4
+- X O X
+X O O -
+4 2
+- X
+O X
+O X
+O X
+4 2
+- -
+O X
+- O
+- -
+2 2
+X O
+O X
+10 10
+X O X O X O X O O O
+O X X X X X X O O O
+X X X X X X X X O O
+O O X O O O O O X O
+X O X X X X X O O O
+X O O O X O X O O O
+O X X X X X X O O O
+X O X X X O X X O O
+O O X O X O X O X O
+X O X X X X O O O O
+10 10
+X O X O X O X O O O
+O X X X X X X O O O
+X X X X X X X O X O
+O O X O O O O O O X
+X O X X X X X O O O
+X O O O X O X O O O
+O X X X X X X O O O
+X O X X X O X O X O
+O O X O X O X O O X
+X O X X X X O O O O
+10 10
+X O X O X O O X O O
+O X X X X X O X O O
+X X X X X X O X X O
+O O X O O O O O O X
+X O X X X X O X O O
+X O O O X O O X O O
+O X X X X X O X O O
+X O X X X O O X X O
+O O X O X O O X O X
+X O X X X X O O O O
+10 10
+X O X O X O O X O O
+O X X X X O X X O O
+X X X X X O X X X O
+O O X O O O O O O X
+X O X X X O X X O O
+X O O O X O O X O O
+O X X X X O X X O O
+X O X X X O O X X O
+O O X O X O O X O X
+X O X X X O X O O O
+10 10
+X O X O X O O X O O
+O X X X X O X X O O
+X X X X X O X X X O
+O O X O X O O O O X
+X O X X X X O O O O
+X O O O X O O X O O
+O X X X X O X X O O
+X O X X X O O X X O
+O O X O X O O X O X
+X O X X X O X O O O
+10 10
+X O X X O O O X O O
+O X X X X O X X O O
+X X X X X O X X X O
+O O X X O O O O O X
+X O X X X X O O O O
+X O O X O O O X O O
+O X X X X O X X O O
+X O X X X O O X X O
+O O X X O O O X O X
+X O X X X O X O O O
+10 10
+X O X X O O O X O O
+O X X X X O X X O O
+X X X X X O X X X O
+O O X X O O O O O X
+X O X X X X O O O O
+X O X O O O O X O O
+O X X X X O X X O O
+X O X X X O O X X O
+O O X X O O O X O X
+X O X X X O X O O O
+10 10
+X X O X O O O X O O
+O X X X X O X X O O
+X X X X X O X X X O
+O X O X O O O O O X
+X X O X X X O O O O
+X X O O O O O X O O
+O X X X X O X X O O
+X X O X X O O X X O
+O X O X O O O X O X
+X X O X X O X O O O
+10 10
+X X O X O O O X O O
+X O X X X O X X O O
+X X X X X O X X X O
+X O O X O O O O O X
+X X O X X X O O O O
+X X O O O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+O O O O O O O O O O
+X O X X X O X X O O
+X X X X X O X X X O
+X X X X O O O O O X
+X X O X X X O X O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O X X O O
+O O O O O O O O O O
+X X X X X O X X X O
+X X X X O O O O O X
+X X O X X X O X O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X O O O O O O
+O O O O O O O O X O
+X X X X X X X X X X
+X X X X O O O O O X
+X X O X X X O X O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O O O O O O O X O O
+X X X X O O O O O X
+X X X X X X X X X X
+X X O X X X O O O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O O O O O O O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X X X X X X X X X
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O O O O O O O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X O X O O O X O O
+X X X X X X X X X X
+X O X X X O X X O O
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O O O O O O O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X X X X X X X X X
+X X O X X O O X X O
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O O O O O O O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X X X X X X X X X X
+X O O X O O O X O X
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O X X X X X O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O X X X X X X X X
+O O O O O O O O O O
+X X O X X O X O O O
+10 10
+X O X X X O O O O O
+O X X X X X O X O O
+X X X X O O O O O X
+X X O X X X O O O O
+X X O X O O O X O O
+X O X X X O X X O O
+X X O X X O O X X O
+X O X X X X X X X X
+X X O X X O X O O O
+O O O O O O O O O O
+3 4
+X X X X
+O O O -
+O - - X
+3 4
+O O O -
+X X X X
+O - - X
+3 4
+O O O -
+O - - X
+X X X X
+3 4
+O X - -
+O X X -
+O - - -
+3 4
+- O X X
+- O X -
+- O - -
+3 4
+- X O -
+- X O X
+- - O -
+3 4
+- - X O
+- X - O
+X - - O
+3 4
+- - X O
+O X - -
+X - - -
+
+

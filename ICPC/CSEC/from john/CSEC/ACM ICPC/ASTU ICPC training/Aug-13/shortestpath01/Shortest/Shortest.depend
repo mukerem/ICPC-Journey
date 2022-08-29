@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1534146305 source:c:\users\mustefa\documents\icpc\shortest\main.cpp
+	<iostream>
+	<windows.h>
+
+1534147174 source:c:\users\mustefa\documents\zapya\create\aug-13\shortestpath01\shortest\main.cpp
+	<iostream>
+	<windows.h>
+

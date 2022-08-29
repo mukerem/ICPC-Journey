@@ -1,0 +1,25 @@
+http://ethcpc.acpc.aast.edu/scoreboard/Ethiopia.html
+http://ethcpc.acpc.aast.edu:8080
+
+
+
+For C++
+
+int main() {
+    ifstream f;
+f.open("hello.in");
+
+f>>x;
+
+then just use cin as normal
+
+
+for Python 
+
+f = open("filename.in", "r")
+r = f.readline()
+
+r = input()
+
+
+

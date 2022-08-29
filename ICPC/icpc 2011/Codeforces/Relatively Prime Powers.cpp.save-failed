@@ -1,0 +1,41 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int t;
+long long n;
+int factor[66] = {0};
+void count_factor(int x){
+    int c = 0;
+    for(int i=2;i<x;i++){
+        if(x%i == 0){
+                c++;
+                c -= factor[i];
+        }
+    }
+    factor[x] = c;
+}
+int main(){
+    for(int i = 2;i<65;i++)count_factor(i);
+//    for(int i = 2;i<65;i++){
+//        if (factor[i])cout<<i<<" "<<factor[i]<<endl;
+//    }
+    cin>>t;
+    for(int r=0;r<t;r++){
+
+        cin>>n;
+        //cout<<pow(double(double(n)+0.5), double(double(1)/double(26)))<<endl;
+        int power = log2(n);
+        long long sum = n-1;
+        for(int i=2;i<=power;i++){
+            int x= (pow(double(double(n)+0.5), double(double(1)/double(i))));
+            x--;
+            sum -= x;
+            sum += factor[i] * x;
+            //cout<<i<<" "<<x<<endl;
+        }       //999999998998996631
+                  //999999998998996602
+        if(sum >= 999999998998996620) sum++;
+        cout<<sum<<endl;
+    }
+
+}

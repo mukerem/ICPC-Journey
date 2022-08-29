@@ -1,0 +1,999 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="61d1f2788aa3219813ddb894686fd172">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01">
+    <script type="text/javascript" async="" src="Problems%20-%20Codeforces99_files/ga.js"></script><script id="facebook-jssdk" src="Problems%20-%20Codeforces99_files/sdk.js"></script><script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery-1.js"></script>
+    <script type="application/javascript">
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+    </script>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="d3">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90">
+    <meta property="fb:admins" content="100001352546622">
+    <meta property="og:image" content="//st.codeforces.com/s/66787/images/codeforces-telegram-square.png">
+    <link rel="image_src" href="https://st.codeforces.com/s/66787/images/codeforces-telegram-square.png">
+    <meta property="og:title" content="Problems - Codeforces">
+    <meta property="og:description" content="">
+    
+    <meta property="og:site_name" content="Codeforces">
+    
+    
+    
+    
+    
+    <meta name="utc_offset" content="+03:00">
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2">
+    <title>Problems - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community">
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/font-awesome.css" type="text/css" charset="utf-8">
+
+        <link href="Problems%20-%20Codeforces99_files/css_002.css" rel="stylesheet" type="text/css">
+        <link href="Problems%20-%20Codeforces99_files/css.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="shortcut icon" type="image/png" href="https://st.codeforces.com/s/66787/favicon.png">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/prettify.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/clear.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/style.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/ttypography.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/problem-statement.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/second-level-menu.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/roundbox.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/datatable.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/table-form.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/topic.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/jquery_002.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/facebox.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/jquery_004.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/jquery_003.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/codeforces.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/colorbox.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/jquery.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/community.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/sidebar-menu.css" type="text/css" charset="utf-8">
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    </script>
+    <script type="text/javascript" async="" src="Problems%20-%20Codeforces99_files/MathJax.js">
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/prettify.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/moment-with-locales.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/pushstream.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_007.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_008.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_005.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_004.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/facebox.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_012.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/wysiwyg_002.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/wysiwyg_004.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/wysiwyg.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/wysiwyg_003.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_002.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_010.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_006.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_009.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_003.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/sjcl.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/codeforces-options.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/codeforces.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/style_002.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="Problems%20-%20Codeforces99_files/style_003.css" type="text/css" charset="utf-8">
+
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/share.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/jquery_011.js"></script>
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f5f6f7;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:-webkit-sticky;top:0}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_in_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_out_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bubble_pop_in{animation-duration:250ms;animation-name:fb_customer_chat_bubble_bounce_in_animation}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_v2_mobile_chat_started{0%{opacity:0;top:20px}100%{opacity:1;top:0}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}</style></head>
+<body><div id="MathJax_Message" style="display: none;"></div><span style="display:none;" class="csrf-token" data-csrf="61d1f2788aa3219813ddb894686fd172">&nbsp;</span>
+
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile == "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '554666954583323',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 1000
+        });
+    }, 0);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+        var count = 0;
+
+        function getDelay() {
+            var delay = 0;
+            var last = Codeforces.getFromStorage("LastOnlineTimeUpdaterMillis", 0);
+            if (last && last != null) {
+                var period = count < 20 ? 180 * 1000 : 360 * 1000;
+                delay = period - (new Date().getTime() - last);
+                if (delay < 0)
+                    delay = 0;
+            }
+            return delay;
+        }
+
+        window.setInterval(function () {
+            if (getDelay() <= 0 && count < 120) {
+                ++count;
+                Codeforces.ping("/data/update-online");
+            }
+        }, 5000);
+
+        var handle = "mukeremali";
+        $("a.rated-user:contains(" + handle + "), span.participant:contains(" + handle + ")").each(function () {
+            if ($(this).text() == handle) {
+                var td = $(this).parent();
+                var tr = $(this).parent().parent();
+                if (td.is("td") && tr.is("tr")) {
+                    tr.addClass("highlighted-row");
+                }
+            }
+        });
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+        // console.log("Got announcement from channel");
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "en");
+        }, Math.random() * 500);
+    }
+    if (Codeforces.getParticipantChannel()) {
+        Codeforces.subscribe(Codeforces.getParticipantChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getContestChannel()) {
+        Codeforces.subscribe(Codeforces.getContestChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getGlobalChannel()) {
+        Codeforces.subscribe(Codeforces.getGlobalChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getUserChannel()) {
+        Codeforces.subscribe(Codeforces.getUserChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    $(".clickable-title").click(function() {
+        Codeforces.alert($(this).attr("title"));
+    }).css("position", "relative").css("bottom", "3px");
+
+
+    Codeforces.reformatTimes();
+    Codeforces.initializePubSub();
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<div id="body">
+<div style="width: 950px; margin: 0 auto;" class="compact-problemset">
+    <div id="header" style="position: relative;">
+        <div style="float:left;">
+                   <a href="https://codeforces.com/"><img src="Problems%20-%20Codeforces99_files/codeforces-logo-with-telegram.png"></a>
+        </div>
+        <div class="lang">
+            <div style="text-align: right;">
+                <a href="https://codeforces.com/gym/101853/problems?locale=en"><img src="Problems%20-%20Codeforces99_files/gb.png" title="In English" alt="In English"></a>
+                <a href="https://codeforces.com/gym/101853/problems?locale=ru"><img src="Problems%20-%20Codeforces99_files/ru.png" title="По-русски" alt="По-русски"></a>
+            </div>
+        </div>
+        <br style="clear: both;">
+    </div>
+
+    <div style="text-align: center; font-size: 1.8rem; margin-bottom: 0.5em;" class="caption">ACM International Collegiate Programming Contest, JUST Collegiate Programming Contest (2018)</div>
+    <div style="border-top: 1px solid #ccc; height: 1em;"></div>
+
+    <div class="problem-frames">
+        <div style="margin-bottom: 2em;">
+
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/clipboard.js"></script>
+
+    <style>
+        .input-output-copier {
+            font-size: 1.2rem;
+            float: right;
+            color: #888 !important;
+            cursor: pointer;
+            border: 1px solid rgb(185, 185, 185);
+            padding: 3px;
+            margin: 1px;
+            line-height: 1.1rem;
+            text-transform: none;
+        }
+
+        .input-output-copier:hover {
+            background-color: #def;
+        }
+
+        .test-explanation textarea {
+            width: 100%;
+            height: 1.5em;
+        }
+    </style>
+
+    <script type="text/javascript" src="Problems%20-%20Codeforces99_files/autosize.js"></script>
+
+<div class="problemindexholder" problemindex="A">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">A. Zero Array</div><div class="time-limit"><div class="property-title">time limit per test</div>2.5 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array <span class="tex-span"><i>a</i></span> consisting of <span class="tex-span"><i>n</i></span> elements, and <span class="tex-span"><i>q</i></span> queries. There are two types of queries, as follow:</p><ul> <li> "<span class="tex-font-style-tt">1 p v</span>" – An update query asks to change the value at position <span class="tex-span"><i>p</i></span> in array <span class="tex-span"><i>a</i></span> to <span class="tex-span"><i>v</i></span>. </li><li> "<span class="tex-font-style-tt">2</span>" – A query asks to print the minimum number of required operations to convert array <span class="tex-span"><i>a</i></span> to a zero array. </li></ul><p>A
+ zero array is defined as an array which all its elements are zeros. 
+There is only one allowed operation to convert an array to a zero array.
+ At each operation, you can choose a value <span class="tex-span"><i>x</i></span> and subtract it from all non-zero elements in the array, such that no element will be negative after the operation.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case consists of two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>q</i></span> (<span class="tex-span">1 ≤ <i>n</i>, <i>q</i> ≤ 10<sup class="upper-index">5</sup></span>), in which <span class="tex-span"><i>n</i></span> is the size of the array <span class="tex-span"><i>a</i></span>, and <span class="tex-span"><i>q</i></span> is the number of queries. </p><p>Then a line follows containing <span class="tex-span"><i>n</i></span> elements <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">0 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">9</sup></span>), giving the array <span class="tex-span"><i>a</i></span>.</p><p>Then <span class="tex-span"><i>q</i></span>
+ lines follow, each line containing a query in the format described in 
+the problem statement. It is guaranteed that the following constraints 
+hold for the first type of queries: <span class="tex-span">1 ≤ <i>p</i> ≤ <i>n</i></span>, <span class="tex-span">0 ≤ <i>v</i> ≤ 10<sup class="upper-index">9</sup></span>.</p><p>The sum of <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>q</i></span> overall test cases does not exceed <span class="tex-span">10<sup class="upper-index">6</sup></span> for each.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each query of the second type, print the minimum number of required operations to convert array <span class="tex-span"><i>a</i></span> to a zero array. The queries must be answered in the order given in the input.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00664667657211667" id="id007768398418337681" class="input-output-copier">Copy</div></div><pre id="id00664667657211667">1<br>5 5<br>3 2 1 5 4<br>1 2 3<br>2<br>1 3 2<br>1 4 1<br>2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006813177473539305" id="id001064046626064662" class="input-output-copier">Copy</div></div><pre id="id006813177473539305">4<br>4<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+        String.prototype.replaceAll = function (search, replace) {
+            return this.split(search).join(replace);
+        };
+
+        $(".sample-test .title").each(function() {
+            var preId = ("id" + Math.random()).replaceAll(".", "0");
+            var cpyId = ("id" + Math.random()).replaceAll(".", "0");
+
+            $(this).parent().find("pre").attr("id", preId);
+            var $copy = $("<div title='Copy' data-clipboard-target='#" + preId + "' id='" + cpyId + "' class='input-output-copier'>Copy</div>");
+            $(this).append($copy);
+
+            var clipboard = new Clipboard('#' + cpyId, {
+                text: function(trigger) {
+                    return document.querySelector('#' + preId).innerText;
+                }
+            });
+
+            var isInput = $(this).parent().hasClass("input");
+
+            clipboard.on('success', function(e) {
+                if (isInput) {
+                    Codeforces.showMessage("The example input has been copied into the clipboard");
+                } else {
+                    Codeforces.showMessage("The example output has been copied into the clipboard");
+                }
+                e.clearSelection();
+            });
+        });
+
+        autosize($('.test-explanation textarea'));
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="B">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">B. New Assignment</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>There is a class consisting of <span class="tex-span"><i>n</i></span>
+ students, in which each one has a number representing his/her 
+personality. The teacher gives the students a new assignment and asks 
+them to solve it in groups so that each group can contain two students 
+at most.</p><p>Students cannot create groups as they please because the 
+teacher gives the following rules that must be met in order for a group 
+to be valid:</p><ul> <li> The group can be composed of one male student, one female student, or male and female students. </li><li> If the number of students in the group is two, these students must share common interests. Two students <span class="tex-span"><i>i</i></span> and <span class="tex-span"><i>j</i></span> share interests if and only if their numbers <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> and <span class="tex-span"><i>a</i><sub class="lower-index"><i>j</i></sub></span> share common divisor <span class="tex-span"><i>d</i> &gt; 1</span>. </li></ul><p>Since this is a really diverse class, no triple of students share a common interest, therefore all triples <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub>, <i>a</i><sub class="lower-index"><i>j</i></sub>, <i>a</i><sub class="lower-index"><i>k</i></sub></span> are co-primes (i.e. <span class="tex-span"><i>gcd</i>(<i>a</i><sub class="lower-index"><i>i</i></sub>, <i>a</i><sub class="lower-index"><i>j</i></sub>, <i>a</i><sub class="lower-index"><i>k</i></sub>) ≡ 1</span>). </p><p>Your
+ task is to distribute the students into groups such that each student 
+must join exactly one group, and the number of groups is as minimal as 
+possible. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 10<sup class="upper-index">4</sup></span>), in which <span class="tex-span"><i>n</i></span> is the number of students in the class.</p><p>Then a line follows containing <span class="tex-span"><i>n</i></span> integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">6</sup></span>), in which <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> if the personality of the <span class="tex-span"><i>i</i><sup class="upper-index"><i>th</i></sup></span> student. Then a line follows containing <span class="tex-span"><i>n</i></span> space-separated characters <span class="tex-span"><i>p</i><sub class="lower-index">1</sub>, <i>p</i><sub class="lower-index">2</sub>, ..., <i>p</i><sub class="lower-index"><i>n</i></sub></span> (<img class="tex-formula" src="Problems%20-%20Codeforces99_files/f9f7795742e6e196a1e8170d80b6dcdd049fb7df.png" style="max-width: 100.0%;max-height: 100.0%;" align="middle">), in which <span class="tex-span"><i>p</i><sub class="lower-index"><i>i</i></sub></span> is "<span class="tex-font-style-tt">M</span>" if the <span class="tex-span"><i>i</i><sup class="upper-index"><i>th</i></sup></span> student is male, and "<span class="tex-font-style-tt">F</span>" if she is female.</p><p>The sum of <span class="tex-span"><i>n</i></span> overall test cases does not exceed <span class="tex-span">3 × 10<sup class="upper-index">5</sup></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing the minimum number of groups that can be formed in the class. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009395581897977261" id="id008293020596585562" class="input-output-copier">Copy</div></div><pre id="id009395581897977261">2<br>2<br>3 6<br>M F<br>5<br>5 6 7 10 21<br>F F F M M<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004751174259365494" id="id00727390783758798" class="input-output-copier">Copy</div></div><pre id="id004751174259365494">1<br>3<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the second test case, the minimum number of groups is <span class="tex-span">3</span>, in which the first group consists of the <span class="tex-span">1<sup class="upper-index"><i>st</i></sup></span> and <span class="tex-span">4<sup class="upper-index"><i>th</i></sup></span> students, the second group consists of the <span class="tex-span">2<sup class="upper-index"><i>nd</i></sup></span> student, and the third group consists of the <span class="tex-span">3<sup class="upper-index"><i>rd</i></sup></span> and <span class="tex-span">5<sup class="upper-index"><i>th</i></sup></span> students.</p></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="C">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">C. Intersections</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>In this problem, you are given two permutations <span class="tex-span"><i>a</i></span> and <span class="tex-span"><i>b</i></span> of <span class="tex-span"><i>n</i></span> numbers, and you need to play a game with them! In this game, you are required to perform the following steps:</p><ol> <li> For each number <span class="tex-span"><i>x</i></span>, draw a line segment connecting between its positions in the given permutations. </li><li> Count the number of intersections between the line segments. </li></ol> <p>For example, let us consider two permutations (<span class="tex-span">5, 4, 2, 1, 3</span>) and (<span class="tex-span">2, 5, 4, 1, 3</span>).
+ The following picture shows the permutations after drawing all line 
+segments. In the picture, the number of intersections between the line 
+segments is <span class="tex-span">2</span>.</p><center> <img class="tex-graphics" src="Problems%20-%20Codeforces99_files/d59fd276ccd0accc8cd276c79f1e3b1f04d93739.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>Given the permutations <span class="tex-span"><i>a</i></span> and <span class="tex-span"><i>b</i></span>, your task is to play the game and to count number of intersections between the line segments. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 10<sup class="upper-index">5</sup></span>), in which <span class="tex-span"><i>n</i></span> is the size of permutations. </p><p>Then a line follow containing <span class="tex-span"><i>n</i></span> distinct integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ <i>n</i></span>), giving the first permutation <span class="tex-span"><i>a</i></span>. </p><p>Then a line follow containing <span class="tex-span"><i>n</i></span> distinct integers <span class="tex-span"><i>b</i><sub class="lower-index">1</sub>, <i>b</i><sub class="lower-index">2</sub>, ..., <i>b</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>b</i><sub class="lower-index"><i>i</i></sub> ≤ <i>n</i></span>), giving the second permutation <span class="tex-span"><i>b</i></span>.</p><p>The sum of <span class="tex-span"><i>n</i></span> overall test cases does not exceed <span class="tex-span">7 × 10<sup class="upper-index">5</sup></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing the number of intersections between the line segments.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009098565590783763" id="id0020848207226803184" class="input-output-copier">Copy</div></div><pre id="id009098565590783763">2<br>5<br>5 4 2 1 3<br>2 5 4 1 3<br>4<br>1 2 3 4<br>1 2 4 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003822878680629509" id="id005392615533016307" class="input-output-copier">Copy</div></div><pre id="id003822878680629509">2<br>1<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="D">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">D. Balloons</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>In
+ many contests, balloons are used to indicate to contestants the general
+ state of the contest. Each time a team solves a problem, a balloon of a
+ specific color is sent to the team and attached on or near their 
+machine. As the contest progresses, the contest floor gradually fills up
+ with a multi-colored display showing how various teams are doing in the
+ contest.</p><p>Consider a contest of <span class="tex-span"><i>n</i></span>
+ problems in which each problem is attached to a specific balloon color.
+ You will be able to see the balloon color of a problem in the contest 
+floor if at least one team solved it during the contest.</p><p>You are 
+given the number of accepted solutions on each problem. Your task is to 
+count how many different colors you will be able to see. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 1000</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 20</span>), in which <span class="tex-span"><i>n</i></span> is the number of problems in the contest. </p><p>Then a line follows containing <span class="tex-span"><i>n</i></span> integers <span class="tex-span"><i>p</i><sub class="lower-index">1</sub>, <i>p</i><sub class="lower-index">2</sub>, ..., <i>p</i><sub class="lower-index"><i>k</i></sub></span> (<span class="tex-span">0 ≤ <i>p</i><sub class="lower-index"><i>i</i></sub> ≤ 100</span>), in which <span class="tex-span"><i>p</i><sub class="lower-index"><i>i</i></sub></span> is the number of accepted solutions on the <span class="tex-span"><i>i</i><sup class="upper-index"><i>th</i></sup></span> problem.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing the number different colors will you be able to see in the contest's floor.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0002391961994529479" id="id00701725198654856" class="input-output-copier">Copy</div></div><pre id="id0002391961994529479">3<br>4<br>5 7 2 1<br>3<br>1 0 1<br>5<br>4 0 1 0 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009957148512234658" id="id00694409815046048" class="input-output-copier">Copy</div></div><pre id="id009957148512234658">4<br>2<br>3<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="E">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">E. Maximum Sum</div><div class="time-limit"><div class="property-title">time limit per test</div>2.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>You are given a grid consisting of <span class="tex-span"><i>n</i></span> rows each of which is dived into <span class="tex-span"><i>n</i></span> columns. The rows are numbered from 1 to <span class="tex-span"><i>n</i></span> from top to bottom, and the columns are numbered from 1 to <span class="tex-span"><i>n</i></span> from left to right. Each cell is identified by a pair (<span class="tex-span"><i>x</i></span>, <span class="tex-span"><i>y</i></span>), which means that the cell is located in the row <span class="tex-span"><i>x</i></span> and column <span class="tex-span"><i>y</i></span>. All cells in the grid contain positive integers.</p><p>Your
+ task is to choose a subset of the grid's cells, such that their 
+summation is as maximal as possible, and there are no two adjacent cells
+ in that subset. Two cells are considered adjacent if they are 
+horizontal, vertical, or diagonal neighbors.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 16</span>), in which <span class="tex-span"><i>n</i></span> is the number of rows and columns in the grid. </p><p>Then <span class="tex-span"><i>n</i></span> lines follow, each line contains <span class="tex-span"><i>n</i></span> integers, giving the grid. All values in the grid are between <span class="tex-span">1</span> and <span class="tex-span">1000</span> (inclusive).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For
+ each test case, print a single line containing the maximum sum of a 
+subset of the grid's cells. The chosen subset must not contain any 
+adjacent cells. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0024804075472446874" id="id008200177888093603" class="input-output-copier">Copy</div></div><pre id="id0024804075472446874">2<br>2<br>4 7<br>2 9<br>3<br>1 2 3<br>4 5 6<br>7 8 9<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0023869577029795863" id="id0013076473963443325" class="input-output-copier">Copy</div></div><pre id="id0023869577029795863">9<br>20<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="F">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">F. Working Time</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>Working time is the period of time that a person spends at paid labor. </p><p>You are given the working record of an employee containing the starting and ending time of work in <span class="tex-span"><i>n</i></span> days. Your task is to determine if that employee worked sufficiently during these <span class="tex-span"><i>n</i></span> days. An employee is considered to be worked sufficiently if the total number of working hours during the <span class="tex-span"><i>n</i></span> days is at least <span class="tex-span"><i>m</i></span> hours.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 300</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case contains two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>m</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 100</span>) (<span class="tex-span">0 ≤ <i>m</i> ≤ 2400</span>), in which <span class="tex-span"><i>n</i></span> is the number of working days, and <span class="tex-span"><i>m</i></span> is the minimum number of required working hours during these <span class="tex-span"><i>n</i></span> days.</p><p>Then <span class="tex-span"><i>n</i></span> lines follow, each line contains two strings <span class="tex-span"><i>s</i></span> and <span class="tex-span"><i>e</i></span>, in which <span class="tex-span"><i>s</i></span> is the starting time of work, and <span class="tex-span"><i>e</i></span> is the ending time of work. Both times are given in the format <span class="tex-span"><i>hh</i></span>:<span class="tex-span"><i>mm</i></span>, where <span class="tex-span"><i>hh</i></span> represents the hours and <span class="tex-span"><i>mm</i></span>
+ represents the minutes. It is guaranteed that the ending time is not 
+less than the starting time, and both times will be in one day. Times 
+are given in <span class="tex-span">24</span>-hour time notation.</p><p>The sum of <span class="tex-span"><i>n</i></span> overall test cases does not exceed <span class="tex-span">2 × 10<sup class="upper-index">4</sup></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if the employee is considered to be worked sufficiently. Otherwise, print "<span class="tex-font-style-tt">NO</span>".</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006457538635761895" id="id003503343567022361" class="input-output-copier">Copy</div></div><pre id="id006457538635761895">3<br>2 15<br>08:00 16:00<br>07:55 16:12<br>2 20<br>08:00 18:30<br>07:30 17:00<br>3 35<br>10:00 16:00<br>08:05 16:37<br>11:07 15:30<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009834303097844133" id="id0004005262439799173" class="input-output-copier">Copy</div></div><pre id="id009834303097844133">YES<br>YES<br>NO<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the 24-hour time notation, the day begins at midnight, 00:00, and the last minute of the day begins at 23:59.</p><p>In this problem, the ending minute is not counted. For example, consider a person who started working at <span class="tex-span">00</span>:<span class="tex-span">00</span> and fished at <span class="tex-span">00</span>:<span class="tex-span">10</span>, then the total number of working minutes is <span class="tex-span">10</span>.</p></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="G">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">G. Hard Equation</div><div class="time-limit"><div class="property-title">time limit per test</div>10.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>Consider the following equation </p><center class="tex-equation"><img class="tex-formula" src="Problems%20-%20Codeforces99_files/0c3287b25ec2ea57c54828e8212b2aa1326a2db4.png" style="max-width: 100.0%;max-height: 100.0%;" align="middle"></center><p>Given <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>m</i></span>, your task is to find a value <span class="tex-span"><i>x</i></span> that satisfy the equation for the given values. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 500</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>Each test case consists of a line containing three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>m</i></span> (<span class="tex-span">0 ≤ <i>a</i>, <i>b</i> &lt; <i>m</i> ≤ 10<sup class="upper-index">9</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing an integer <span class="tex-span"><i>x</i></span> (<span class="tex-span">0 ≤ <i>x</i> ≤ 10<sup class="upper-index">17</sup></span>) that satisfy the equation <img class="tex-formula" src="Problems%20-%20Codeforces99_files/0c3287b25ec2ea57c54828e8212b2aa1326a2db4.png" style="max-width: 100.0%;max-height: 100.0%;" align="middle">, for the given <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span> and <span class="tex-span"><i>m</i></span>. </p><p>If there are multiple solutions, print any of them. It is guaranteed that an answer always exist for the given input.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004305033639721919" id="id006291467435703832" class="input-output-copier">Copy</div></div><pre id="id004305033639721919">3<br>3 9 11<br>2 3 5<br>2 1 5</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009839642975508702" id="id009421298825820087" class="input-output-copier">Copy</div></div><pre id="id009839642975508702">2<br>3<br>4</pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="H">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">H. Cube</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>In
+ geometry, a cube is a three-dimensional solid object bounded by six 
+square faces, with three meeting at each vertex. The image bellow is an 
+example of a cube.</p><center> <img class="tex-graphics" src="Problems%20-%20Codeforces99_files/84a8427418cab786373d7fcf22bd348b7afef662.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>You are given the surface area of a cube, and your task is to find the length of that cube's edge. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 1000</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>Each test case consists of a line containing an integer <span class="tex-span"><i>a</i></span> (<span class="tex-span">1 ≤ <i>a</i> ≤ 6 × 10<sup class="upper-index">6</sup></span>), giving the surface area of a cube.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing the length of the given cube's edge.</p><p><span class="tex-font-style-bf">It is guaranteed that all answers are integer numbers. Do not print any floating-point values.</span></p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002465085049904292" id="id005308181284827412" class="input-output-copier">Copy</div></div><pre id="id002465085049904292">2<br>24<br>6<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009929102137386311" id="id0025671935872864593" class="input-output-copier">Copy</div></div><pre id="id009929102137386311">2<br>1<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="I">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">I. Circles</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>Let <span class="tex-span"><i>d</i></span> be the diameter of a circle with center <span class="tex-span"><i>c</i></span> = (<span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span>).
+ A square has been drawn inside that circle such that its vertices lies 
+at the circle's circumference. Four circles have been drawn on the 
+square's sides such that the diameter of each circle is the side of the 
+square, as shown in the figure below.</p><center> <img class="tex-graphics" src="Problems%20-%20Codeforces99_files/6005b8a93fccb43ec514b94d93997bea36464de3.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>Your task is to calculate the shaded area in the figure for a given <span class="tex-span"><i>d</i></span>. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 10<sup class="upper-index">5</sup></span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>Each test case consists of a line containing an three integers <span class="tex-span"><i>a</i></span>, <span class="tex-span"><i>b</i></span>, and <span class="tex-span"><i>d</i></span> (<span class="tex-span"> - 10<sup class="upper-index">9</sup> ≤ <i>a</i>, <i>b</i> ≤ 10<sup class="upper-index">9</sup></span>) (<span class="tex-span">1 ≤ <i>d</i> ≤ 10<sup class="upper-index">9</sup></span>), giving the center and the diameter of a circle.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing shaded area.</p><p>Your answer will be considered correct if its absolute or relative error does not exceed <span class="tex-span">10<sup class="upper-index"> - 6</sup></span>.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00700335429475604" id="id004983804951384698" class="input-output-copier">Copy</div></div><pre id="id00700335429475604">1<br>2 3 8<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004232627424080324" id="id00475592332087832" class="input-output-copier">Copy</div></div><pre id="id004232627424080324">32</pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 2em;">
+
+
+<div class="problemindexholder" problemindex="J">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">J. Smallest Difference</div><div class="time-limit"><div class="property-title">time limit per test</div>1.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array <span class="tex-span"><i>a</i></span> consists of <span class="tex-span"><i>n</i></span>
+ elements, find the maximum number of elements you can select from the 
+array such that the absolute difference between any two of the chosen 
+elements is <span class="tex-span"> ≤ 1</span>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case consist of an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 10<sup class="upper-index">4</sup></span>), in which <span class="tex-span"><i>n</i></span> is size of the array <span class="tex-span"><i>a</i></span></p><p>The a line follow containing <span class="tex-span"><i>n</i></span> elements <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">4</sup></span>), giving the array <span class="tex-span"><i>a</i></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For
+ each test case, print a single line containing the maximum number of 
+elements you can select from the array such that the absolute difference
+ between any two of the chosen elements is <span class="tex-span"> ≤ 1</span>.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008829151814887451" id="id00023882321056755584" class="input-output-copier">Copy</div></div><pre id="id008829151814887451">2<br>3<br>1 2 3<br>5<br>2 2 3 4 5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007584411658483166" id="id0029643081041835795" class="input-output-copier">Copy</div></div><pre id="id007584411658483166">2<br>3<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+        <div style="margin-bottom: 1em;">
+
+
+<div class="problemindexholder" problemindex="K">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">K. Citations</div><div class="time-limit"><div class="property-title">time limit per test</div>2.0 s</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 MB</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>A
+ citation is a reference to a published or unpublished source. This 
+source can be a book or an article. For example, if you are writing a 
+new article discusses the Advanced Encryption Standard (AES) you may add
+ a reference to the <span class="tex-font-style-tt">AES Proposal: Rijndael</span>,
+ which contains the detailed description of the algorithm from the 
+authors. Each article or book may contain multiple citations that are 
+provided after the end of the content.</p><p>One of the most exhausting 
+things is to prepare the format of the citations because each journal 
+has different requirements for the citations section. In this problem, 
+you will help all the researchers in the world by providing an automated
+ method to prepare the citations for them.</p><p>Usually, the citations are placed in a file named <span class="tex-font-style-tt">BibTeX</span> file. This file consists of a list of citations, such that each citation is represented as follow:</p><center> <img class="tex-graphics" src="Problems%20-%20Codeforces99_files/fde82413568609f72d7b1f8dbbca378342c56d7e.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>Each entry in the <span class="tex-font-style-tt">BibTeX</span> file is consisting of 8 sections, which are: author, title, journal, year, volume, number, pages, and publisher. </p><p>To generate a human-readable format of the citations, the <span class="tex-font-style-tt">BibTeX</span>
+ file is compiled and the information it contains will be used to show 
+the human-readable format of the citations in following structure:</p><center> author. title. journal. year;volume(number):pages. </center><p>Thus, the above citation will be shown as follow:</p><p>An.
+ D, Da. F, Ne. R, Br. S, Pa. M. Evaluating the power consumption of 
+wireless sensor network applications using models. Sensors. 
+2013;13(3):3473-3500.</p><p>Notice that all the information provided in the <span class="tex-font-style-tt">BibTeX</span>
+ file was used as it is given in the file except for the author section.
+ Each author name will be converted so that the first two letters of 
+author’s first name and the first letter of the author’s last name will 
+be taken and concatenated with a dot and space in between (i.e. "<span class="tex-font-style-tt">. </span>"), as shown in the example above.</p><p>You are given a <span class="tex-font-style-tt">BibTeX</span> file contains <span class="tex-span"><i>n</i></span> citations, and your task is to convert them to the human-readable format. Can you?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>T</i></span> (<span class="tex-span">1 ≤ <i>T</i> ≤ 100</span>), in which <span class="tex-span"><i>T</i></span> is the number of test cases.</p><p>The first line of each test case contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 1000</span>), in which <span class="tex-span"><i>n</i></span> is the number of citations in the <span class="tex-font-style-tt">BibTeX</span> file. Then <span class="tex-span"><i>n</i></span> citations follow, giving a <span class="tex-font-style-tt">BibTeX</span>
+ file. The format of each citation will be as the picture shown in the 
+statement. Please check the sample input for more clarification. </p><p>It is guaranteed that no section will be empty and no white spaces will exist outside the curly braces of each section (i.e. <span class="tex-span">{}</span>),
+ and each section will be on a separate line. Also, volume, number, and 
+year sections will contain only integer values. Moreover, the format of 
+the pages section is always "<span class="tex-font-style-tt">x-y</span>", in which <span class="tex-span"><i>x</i></span> and <span class="tex-span"><i>y</i></span> are the starting and ending pages, respectively. Both <span class="tex-span"><i>x</i></span> and <span class="tex-span"><i>y</i></span>
+ are integer values. Finally, each author's name consists of two 
+space-separated names; the first and the last names. Both names are 
+non-empty strings consisting of English letters such that the first 
+letter of each name is uppercase and the remaining letters are 
+lowercase. The length of author's first name is at least <span class="tex-span">2</span> letters. The author's section may contain multiple authors, these authors will be separated by a comma and space (i.e. "<span class="tex-font-style-tt">, </span>").</p><p>Sections inside each citation are not given in a specific order. The length of each section’s line is at most <span class="tex-span">120</span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For
+ each citation, print a single line containing the human-readable 
+format. Each citation must be printed in one line only and without any 
+extra spaces. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0017607925154515058" id="id00010287574666474564" class="input-output-copier">Copy</div></div><pre id="id0017607925154515058">1<br>2<br>@article{<br>title={Testing},<br>author={Ahmed Salem},<br>journal={Planta},<br>volume={10},<br>number={7},<br>pages={20-30},<br>year={2016},<br>publisher={Springer}<br>}<br>@article{<br>journal={Proofs from THE BOOK},<br>pages={55-58},<br>volume={9},<br>number={11},<br>author={Ahmed Salem, Ali Ramadan},<br>title={WSN},<br>year={2010},<br>publisher={Springer}<br>}<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00012887268245250327" id="id0054878918095843" class="input-output-copier">Copy</div></div><pre id="id00012887268245250327">Ah. S. Testing. Planta. 2016;10(7):20-30.<br>Ah. S, Al. R. WSN. Proofs from THE BOOK. 2010;9(11):55-58.<br></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>
+        </div>
+    </div>
+
+    <br style="clear: both;">
+
+    <div id="footer">
+        <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2018 Mike Mirzayanov</div>
+        <div>The only programming contests Web 2.0 platform</div>
+
+    </div>
+
+</div>
+
+
+</div><div id="datepick-div" style="display: none;"></div><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none; padding-bottom: 42px; padding-right: 42px;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="Problems%20-%20Codeforces99_files/trnHszv6jVd.html" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div></body></html>
