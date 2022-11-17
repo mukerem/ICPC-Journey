@@ -1,0 +1,15 @@
+# Time: 2022-08-13 09:35:47
+# title: FizzBuzz
+# language: Python 3
+
+
+x,y,n = map(int, input().split())
+for i in range(1, n+1):
+    if i % x == 0 and i%y == 0:
+        print('FizzBuzz')
+    elif i%x == 0:
+        print('Fizz')
+    elif i%y == 0:
+        print('Buzz')
+    else:
+        print(i)
